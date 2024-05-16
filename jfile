@@ -1,0 +1,10 @@
+pipeline {
+agent any
+stages {
+stage {(printing echo cmnd)
+steps {
+sh "echo this is mpipeline"
+}
+}
+}
+}
